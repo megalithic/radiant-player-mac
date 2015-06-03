@@ -123,7 +123,7 @@ header h2 {
   float: left;
   width: 179px;
   margin-right: 14px; 
-  margin-bottom: 20px; 
+  margin-bottom: 15px; 
   background: #fdfdfd; /* Old browsers */
   background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
@@ -219,6 +219,19 @@ header h2 {
   height: 20px;
   vertical-align: middle;
   margin-bottom: 2px;
+}
+
+#beta {  
+  font-size: 12px;
+  margin: -10px auto 10px auto;
+  text-align: center;
+  background-color: #eee;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: block;
+  width: 751px;
+  box-sizing: border-box;
 }
 
 #requirements {
