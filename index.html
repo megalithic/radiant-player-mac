@@ -30,7 +30,7 @@
 
         <section id="downloads" class="clearfix">
           <a href="https://github.com/kbhomes/radiant-player-mac" id="view-on-github" class="button"><span>View on GitHub</span></a>
-          <a href="https://github.com/kbhomes/radiant-player-mac/releases/download/v1.4.0/Radiant.Player.zip" id="download-zip" class="button"><span>Download v1.4.0</span></a>
+          <a href="https://github.com/kbhomes/radiant-player-mac/releases/download/v1.4.1/Radiant.Player.zip" id="download-zip" class="button"><span>Download v1.4.1</span></a>
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
             <input type="hidden" name="cmd" value="_donations">
             <input type="hidden" name="business" value="sajidanwar94@gmail.com">
@@ -50,28 +50,16 @@
         <span id="requirements">
           <strong>No affiliation with Google.</strong> Requires Mac OS X 10.9 or above, and Adobe Flash Player.
           <div id="release-notes">
-            <a id="release-notes-link" href="https://github.com/kbhomes/radiant-player-mac/releases/tag/v1.4.0">Release notes for Radiant Player v1.4.0:</a>
-              <p>At long last, the actual next version! </p>
-              
-              <p>Major changes:</p>
-              <ul>
-                <li>Support Google Play Music's latest redesign</li>
-                <li>Mac OS X 10.8 is no longer supported (see <a href="https://github.com/kbhomes/radiant-player-mac/issues/291" class="issue-link" title="[OS X 10.8] Empty screen in latest player">#291</a> for progress, if any, on the possibility of re-instating support)</li>
-                <li>Removed all styles except for Google and Black (formerly Spotify Black) due to incompatibility with the new redesign; I will be looking into porting one or two of the original styles to the new design</li>
-              </ul>
-              
-              <p>Other changes:</p>
-              <ul>
-                <li>Prevent brief 'ghost' mini player while switching spaces (fixes <a href="https://github.com/kbhomes/radiant-player-mac/issues/309" class="issue-link" title="Mini-Player Popup when Switching Spaces">#309</a>)</li>
-                <li>Allow mini player to be used in other full screen applications (fixes <a href="https://github.com/kbhomes/radiant-player-mac/issues/79" class="issue-link" title="Dock icon / mini-player only works on desktop workspace">#79</a>)</li>
-                <li>Allow reload button to be clicked when internet connectivity is lost while first loading Google Play Music (fixes <a href="https://github.com/kbhomes/radiant-player-mac/issues/313" class="issue-link" title="Reload button doesn't work">#313</a>)</li>
-                <li>Implement <code>⌘A</code> (select all) shortcut (fixes <a href="https://github.com/kbhomes/radiant-player-mac/issues/317" class="issue-link" title="&quot;Select All&quot; hotkey not implemented">#317</a>)</li>
-                <li>Open release page instead of home page when a new version is available</li>
-                <li>Prevent dragging of file onto main window (fixes <a href="https://github.com/kbhomes/radiant-player-mac/pull/307" class="issue-link" title="Disabled dragging of file on to the webview">#307</a>, thanks <a href="https://github.com/nielstholenaar" class="user-mention">@nielstholenaar</a>)</li>
-                <li>Add support for <code>⌘[</code> and <code>⌘]</code> keyboard shortcuts to go forward and backward (fixes <a href="https://github.com/kbhomes/radiant-player-mac/pull/296" class="issue-link" title="Add support for command-[ and -] for back and forward">#296</a>, thanks <a href="https://github.com/gholts" class="user-mention">@gholts</a>)</li>
-              </ul>
-              
-              <p>Many thanks to all the testers of the two beta releases, and I will certainly be continuing to look into the outstanding issues that a couple users have reported. Also, <em>very many thanks</em> to everybody who was patiently waiting for this release ever since the Google Play Music redesign! I would have liked a much shorter release window, but hopefully this version is satisfactory enough to forgive that! Enjoy.</p>
+            <a id="release-notes-link" href="https://github.com/kbhomes/radiant-player-mac/releases/tag/v1.4.1">Release notes for Radiant Player v1.4.1:</a>
+            <p>This is a small release that fixes the main bugs that made Radiant Player entirely unusable for a little while now. </p>
+
+            <ul>
+              <li>Fixed styling errors (fixes <a href="https://github.com/kbhomes/radiant-player-mac/issues/340" class="issue-link" title="Black theme stylings for 'Top songs'">#340</a>)</li>
+              <li>Used new copy of Web Components fallback (fixes <a href="https://github.com/kbhomes/radiant-player-mac/pull/352" class="issue-link" title="Replace both webcomponents.js and webcomponents.min.js with fallback">#352</a>, thank you <a href="https://github.com/jacobwgillespie" class="user-mention">@jacobwgillespie</a>)</li>
+              <li>Radiant Player launches properly on OS X El Capitan</li>
+            </ul>
+
+            <p>My apologies to everyone for being so unavailable, and thank you to those that provided unofficial binaries and code changes.</p>
           </div>
         </span>
 
