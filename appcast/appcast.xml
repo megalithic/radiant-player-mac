@@ -7,17 +7,17 @@
         <language>en</language>
         
         <item>
-            <title>v1.4.1</title>
+            <title>v1.5.0</title>
             <sparkle:releaseNotesLink>
-                https://radiant-player.github.io/radiant-player-mac/release-notes/v1.4.1.html
+                https://radiant-player.github.io/radiant-player-mac/release-notes/v1.5.0.html
             </sparkle:releaseNotesLink>
-            <pubDate>Sat, 13 Sep 2015 05:52:28 +0000</pubDate>
+            <pubDate>Sat, 24 Oct 2015 03:11:28 +0000</pubDate>
             <enclosure 
-                url="https://github.com/radiant-player/radiant-player-mac/releases/download/v1.4.1/Radiant.Player.app.zip" 
-                sparkle:version="1.4.1" 
-                length="1581971" 
+                url="https://radiant-player.github.io/radiant-player-mac/appcast/Radiant.Player.app.zip" 
+                sparkle:version="1.5.0" 
+                length="2680182" 
                 type="application/octet-stream" 
-                sparkle:dsaSignature="MC0CFDrrGmtFLm8V2sv7UEPjuT9wWUUGAhUAvTSE/dF3l6JfQVt5tcFvTuRsOw4=" 
+                sparkle:dsaSignature="MC0CFB7rbTnuEXdpQXH4vKIOI6YkKL+fAhUAz9sYmT6E4qJDvwm14ZzOdmq3FWU=" 
             />
             <sparkle:minimumSystemVersion>10.9</sparkle:minimumSystemVersion>
         </item>
