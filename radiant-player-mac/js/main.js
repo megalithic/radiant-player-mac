@@ -356,6 +356,6 @@ if (typeof window.MusicAPI === 'undefined') {
     addObserver.observe(document.querySelector('#player #playerSongInfo'), { childList: true, subtree: true });
     shuffleObserver.observe(document.querySelector('#player sj-icon-button[data-id="shuffle"]'), { attributes: true });
     repeatObserver.observe(document.querySelector('#player sj-icon-button[data-id="repeat"]'), { attributes: true });
-    playbackObserver.observe(document.querySelector('#player sj-icon-button[data-id="play-pause"]'), { attributes: true });
+    playbackObserver.observe(document.querySelector('#player paper-icon-button[data-id="play-pause"]'), { attributes: true });
     playbackTimeObserver.observe(document.querySelector('#player #material-player-progress'), { attributes: true });
 }
